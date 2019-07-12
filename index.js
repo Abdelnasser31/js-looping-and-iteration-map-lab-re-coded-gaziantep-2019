@@ -11,7 +11,7 @@ function lowerCaseDrivers(arr){
   return arr.map(el =>  el.toLowerCase() );
 }
 function nameToAttributes(arr){
-  return arr.map(el => `${el.firstName} ${el.lastNam}`);
+  return arr.map(el => `${el.firstName} ${el.lastName}`);
 }
 function attributesToPhrase(arr){
   return arr.map(el => `${el.name} is from ${el.hometown}` );
