@@ -12,5 +12,5 @@ function lowerCaseDrivers(arr){
 }
 
 function attributesToPhrase(arr){
-  console.log(arr.map(el => `<${el.name}> is from <${el.hometown}>` ));
+  return arr.map(el => `<${el.name}> is from <${el.hometown}>` );
 }
