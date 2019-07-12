@@ -7,8 +7,10 @@
 //   });
 // }
 
-function lowerCaseDrivers(drivers){
-  return drivers.map(driver =>  driver.toLowerCase() );
+function lowerCaseDrivers(arr){
+  return arr.map(el =>  el.toLowerCase() );
 }
 
-function nameToAttributes(drivers)
+function nameToAttributes(arr){
+  console.log(arr.map(el => `<${el.name}> is from <${el.hometown}>` ));
+}
